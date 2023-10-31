@@ -7,7 +7,10 @@ An end-to-end data engineering project involving:
 - Creation of Azure Synapse Analytics SQL Database to query data in data lake for reporting needs
 - Creation of Power BI dashboards to visualize key metrics and display insights
 
-Pre-requisites:
+Prerequisites:
 - Knowledge of SQL and Python
-- Fundamentals of Azure Cloud services (Data Factory, Data Lake, Synapse Analytics) and Power BI
+- Fundamentals of Azure Cloud services (Data Factory, Data Lake, Synapse Analytics, Key Vault) and Power BI
 
+## Architecture Diagram
+
+![architecture-diagram](azure-architecture-diagram.png?raw=true)

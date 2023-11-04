@@ -21,3 +21,7 @@
 3. Add the SQL Server database user credentials (step 5 of on-premises SQL Server Setup) to Key Vault.
 
     *Note: If you encounter RBAC error while adding secrets, grant yourself IAM Role **KeyVaultAdministrator** under **Access Control (IAM)** of Azure Key Vault resource.*
+4. Navigate to data lake resource and create the following containers under Data Storage:
+    - __bronze__: to store raw ingested data
+    - __silver__: to store enriched data
+    - __gold__: to store final transformed data

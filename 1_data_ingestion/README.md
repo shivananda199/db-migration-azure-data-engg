@@ -84,7 +84,7 @@ File path parameters:
 
 ![Sink Folder Structure](./img/sink-folder-structure.png)
 
-This will allow the creation of bronze data lake container folders in the following format: `**bronze/Schema/Tablename/Tablename.parquet**`.
+This will allow the creation of bronze data lake container folders in the following format: `bronze/Schema/Tablename/Tablename.parquet`.
 
 Now, source and sink are configured. The pipeline is also ready, publish all changes, and trigger the pipeline. After the pipeline run is complete, the bronze container in data lake will look like this after successful data ingestion:
 
